@@ -12,10 +12,22 @@
     </style>
 </head>
 
+
 <body>
     <h1>Your Glass Order</h1>
 
-    <form action="mailto:yourmail@edu.aau.at?subject=Glass Order" method="post" enctype="text/plain">
+    <form action="mailto:merlacher2001@gmail.com?subject=Glass Order" method="post" enctype="text/plain">
+
+        <label>Thikness of the glass pannel:</label>
+        <input type="radio" id="4mm" name="thikness" value="4mm" required>
+        <label for="4mm">4mm</label>
+        <input type="radio" id="6mm" name="thikness" value="6mm" required>
+        <label for="6mm">6mm</label>
+        <input type="radio" id="8mm" name="thikness" value="8mm" required>
+        <label for="8mm">8mm</label>
+        <input type="radio" id="12mm" name="thikness" value="12mm" required>
+        <label for="12mm">12mm</label>
+        <br>
 
         <input type="submit">
     </form>
